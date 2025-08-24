@@ -27,9 +27,13 @@ A Google Cloud Platform account with a GCS bucket and a Service Account JSON key
 Clone the repository and install the required dependencies.
 
 git clone <your-repository-url>
+
 cd <repository-name>
-python3 -m venv venv
+
+python -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 3. Configuration
