@@ -1,6 +1,7 @@
-Cross-Cloud Storage Replicator
-**This project is a Python-based API service that replicates files from an AWS S3 bucket to a Google Cloud Storage (GCS) bucket. It is designed to be event-driven, robust, and memory-efficient.
-**
+# Cross-Cloud Storage Replicator
+
+This project is a Python-based API service that replicates files from an AWS S3 bucket to a Google Cloud Storage (GCS) bucket. It is designed to be event-driven, robust, and memory-efficient.
+
 ---
 ## Sequence Diagram
 
@@ -51,7 +52,8 @@ AWS_ACCESS_KEY_ID=YOUR_AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY=YOUR_AWS_SECRET_ACCESS_KEY
 
 # Google Cloud Credentials
-# Use the full path to your downloaded service account JSON key
+Use the full path to your downloaded service account JSON key
+
 GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/gcp-service-account-key.json
 
 # Target GCS Bucket
