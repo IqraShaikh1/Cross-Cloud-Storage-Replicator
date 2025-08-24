@@ -1,3 +1,9 @@
+## Sequence Diagram
+
+The following diagram illustrates the workflow of a replication request.
+
+![Sequence Diagram](screenshots/sequence_diagram.png)
+
 Cross-Cloud Storage Replicator
 This project is a Python-based API service that replicates files from an AWS S3 bucket to a Google Cloud Storage (GCS) bucket. It is designed to be event-driven, robust, and memory-efficient.
 
@@ -27,9 +33,13 @@ A Google Cloud Platform account with a GCS bucket and a Service Account JSON key
 Clone the repository and install the required dependencies.
 
 git clone <your-repository-url>
+
 cd <repository-name>
-python3 -m venv venv
+
+python -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 3. Configuration
