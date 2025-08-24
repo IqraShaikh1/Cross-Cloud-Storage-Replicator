@@ -1,5 +1,6 @@
 Cross-Cloud Storage Replicator
-This project is a Python-based API service that replicates files from an AWS S3 bucket to a Google Cloud Storage (GCS) bucket. It is designed to be event-driven, robust, and memory-efficient.
+**This project is a Python-based API service that replicates files from an AWS S3 bucket to a Google Cloud Storage (GCS) bucket. It is designed to be event-driven, robust, and memory-efficient.
+**
 ---
 ## Sequence Diagram
 
